@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sell Page</title>
+    <link rel="stylesheet" href="sellpage1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body
+        {
+            background-color: black;
+            background-image: url('Allpics/bg-website-min.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 110% 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class = "header">
+        <img src="Allpics/PROJECTLOGO-removebg-preview.png" class="logo-prop" onclick="location.reload()">
+        <input type="text" class="search-bar" placeholder="Search For Products">
+        <button class="chatbutton">
+            <img src="Allpics/icons8-chat-24.png" class="chatimage">
+        </button>
+        <button type="submit" class="search-button"><img src="Allpics/icons8-search-64.png" class="search-icon"></button>
+        <button class="cart-button">MY BIDS <img src="Allpics/icons8-cart-96.png" class="cart-icon"></button>
+        <button class="profile-button"><img src="Allpics/icons8-male-user-50.png" class="profile-icon"></button>
+    </div>
+    <h2 class="heading-css">Sell Your Product</h2>
+    <button class="category-button-css" onclick="toggleDropdown()">Select a Category</button>
+    <img src="Allpics/icons8-down-arrow-64.png" class="arrow-down-css1">
+    <div id="myDropdown" class="dropdown-content">
+        <a href="#" class="dropdown-item" onclick="selectOption('Electronics')">Electronics</a>
+        <a href="#" class="dropdown-item" onclick="selectOption('Fashion')">Fashion</a>
+        <a href="#" class="dropdown-item" onclick="selectOption('Stationary')">Stationary</a>
+        <a href="#" class="dropdown-item" onclick="selectOption('Books')">Books</a>
+        <a href="#" class="dropdown-item" onclick="selectOption('Sports')">Sports</a>
+        <a href="#" class="dropdown-item" onclick="selectOption('Others')">Other Accessories</a>
+    </div>
+    <h3 class="productname-css">Name of the product :-</h3>
+    <input type="text" placeholder="Enter the name of the product" class="inputname-css">
+    <h3 class="baseprice-css">Base Price (In ₹) :-</h3>
+    <input type="text" placeholder="Enter your Base Price" class="inputprice-css">
+    <script src="sellpage1.js"></script>
+    <h3 class="description-css">Description :-</h3>
+    <input type="text" placeholder="Enter the description of the product" class="inputdescription-css">
+    <h3 class="imageheading-css">Upload an Image :-</h3>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <!-- Input for file selection -->
+        <input type="file" name="image" accept="image/*" id="imageInput" onchange="previewImage(event)">
+        <!-- Button to trigger the file selection dialog -->
+        <label for="imageInput">Choose Image</label>
+      </form>
+      <!-- Image preview container -->
+    <div id="imagePreviewContainer">
+        <img id="imagePreview" src="Allpics/icons8-camera-64.png" alt="Image Preview">
+    </div>
+    <button class="finalupload">Upload</button>
+</body>
+</html>

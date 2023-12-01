@@ -1,0 +1,238 @@
+.logo-prop
+{
+    cursor: pointer;
+    margin-top: -50px;
+    margin-left: -20px;
+    width: 200px;
+    height: 200px;
+    transition: opacity 0.2s;
+}
+.logo-prop:hover
+{
+    opacity: 0.5;
+}
+.vertical1 {
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 100px;
+    position: absolute;
+    left: 10%;
+    margin-top: 15px;
+}
+.vertical2
+{
+    border-left: 2px solid rgb(252, 192, 255);
+    height: 150px;
+    position: absolute;
+    left: 10%;
+    margin-top: 113px;
+}
+.vertical3
+{
+    border-left: 2px solid rgb(249, 135, 255);
+    height: 200px;
+    position: absolute;
+    left: 10%;
+    margin-top: 263px;
+}
+.vertical4
+{
+    border-left: 2px solid rgb(247, 88, 255);
+    height: 200px;
+    position: absolute;
+    left: 10%;
+    margin-top: 463px;
+}
+.menus 
+{
+    display: block;
+}
+.menu1
+{
+    color: white;
+    font-family: Roboto, Aerial;
+    font-size: 17px;
+    cursor: pointer;
+    transition: text-decoration 0.2s;
+    transition: opacity 0.2s;
+    margin-left: 300px;
+    margin-top: -130px;
+    height: 30px;
+}
+.menu1:hover
+{
+    text-decoration: underline;
+}
+.menu1:active
+{
+    opacity: 0.5;
+}
+.menu2
+{
+    color: white;
+    font-family: Roboto, Aerial;
+    font-size: 17px;
+    cursor: pointer;
+    transition: text-decoration 0.2s;
+    transition: opacity 0.2s;
+    margin-left: 430px;
+    margin-top: -46px;
+    height: 30px;
+}
+.menu2:hover
+{
+    text-decoration: underline;
+}
+.menu2:active
+{
+    opacity: 0.5;
+}
+.menu3
+{
+    color: white;
+    font-family: Roboto, Aerial;
+    font-size: 17px;
+    cursor: pointer;
+    transition: text-decoration 0.2s;
+    transition: opacity 0.2s;
+    margin-left: 560px;
+    margin-top: -45px;
+    height: 30px;
+}
+.menu3:hover
+{
+    text-decoration: underline;
+}
+.menu3:active
+{
+    opacity: 0.5;
+}
+.menu4
+{
+    color: white;
+    font-family: Roboto, Aerial;
+    font-size: 17px;
+    cursor: pointer;
+    transition: text-decoration 0.2s;
+    transition: opacity 0.2s;
+    margin-left: 680px;
+    margin-top: -45px;
+    height: 30px;
+}
+.menu4:hover
+{
+    text-decoration: underline;
+}
+.menu4:active
+{
+    opacity: 0.5;
+}
+.login 
+{
+    height: 20px;
+    margin-top: -10px;
+}
+.signup 
+{
+    height: 20px;
+    margin-top: -50px;
+}
+.sign-up
+{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border-color: white;
+    margin-left: 1200px;
+    margin-top: -60px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: border-color 0.2s;
+    transition: opacity 0.2s;
+    margin-left: 1400px;
+    margin-top: -100px;
+}
+.sign-up:hover
+{
+    border-color: rgb(255, 122, 255);
+}
+.sign-up:active
+{
+    opacity: 0.5;
+}
+.texts
+{
+    width: 800px;
+    height: 300px;
+}
+.Texts 
+{
+    color: white;
+    margin-left: 300px;
+    margin-top: 100px;
+    font-size: 70px;
+    line-height: 100px;
+    font-family: Roboto, Aerial;
+    font-weight: bold;
+}
+.color1
+{
+    background: -webkit-linear-gradient(rgb(188, 12, 241), #9ce0ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.get-started-div
+{
+    width: 500px;
+}
+.get-started
+{
+    margin-left: 300px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 254, 254);
+    border-radius: 10px;
+    border-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    font-family: Roboto;
+    transition: padding-right 0.4s,
+        padding-left 0.4s;
+}
+.get-started:hover
+{
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.get-started:active
+{
+    opacity: 0.7;
+}
+.sub-text-div
+{
+    width: 700px;
+    font-size: 20px;
+    height: 60px;
+}
+.sub-text
+{
+    color: rgb(110, 110, 110);
+    font-family: Roboto;
+    margin-left: 300px;
+}
+.image-div
+{
+    width: 1000px;
+}
+.image
+{
+    margin-left: 900px;
+    margin-top: -800px;
+}

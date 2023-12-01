@@ -1,0 +1,265 @@
+.header
+{
+    background-color:rgb(38, 36, 36);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1500px;
+    border-radius: 14px;
+    flex-wrap: wrap;
+    height: 80px;
+    position: fixed;
+    z-index: 10;
+}
+.logo-prop
+{
+    cursor: pointer;
+    margin-top: -25px;
+    margin-left: 10px;
+    width: 120px;
+    height: 120px;
+    transition: opacity 0.2s;
+}
+.logo-prop:active
+{
+    opacity: 0.3;
+}
+.search-bar
+{
+    color: white;
+    background-color: black;
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 7px;
+    margin-left: 500px;
+    width: 350px;
+    height: 60px;
+}
+.search-button
+{
+    background-color: rgb(38, 36, 36);
+    border: none;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    margin-top: 13px;
+    margin-left: -390px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+.search-button:active
+{
+    opacity: 0.5;
+}
+.search-icon
+{
+    width: 40px;
+    height: 40px;
+}
+.profile-icon
+{
+    width: 50px;
+    height: 50px;
+    padding-top: 1px;
+}
+.profile-button
+{
+    background-color: rgb(38, 36, 36);
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 9px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: opacity 0.3s;
+}
+.profile-button:active
+{
+    opacity: 0.5;
+}
+.cart-button
+{
+    background-color:magenta;
+    margin-left: -30px;
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Roboto;
+    border: none;
+    border-radius: 20px;
+    padding-right: 30px;
+    margin-top: 10px;
+    font-weight: 550;
+    color: white;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+.cart-button:active
+{
+    opacity: 0.5;
+}
+.cart-icon
+{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+.chatbutton
+{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border: none;
+    border-radius: 100px;
+    margin-top: 11px;
+    margin-left: 130px;
+    cursor: pointer;
+}
+
+/*NOWWW*/
+.account-title
+{
+    color: white;
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    top: 90px;
+    font-size: 45px;
+    font-family: Roboto;
+    display: flexbox;
+    flex-direction: row;
+    left: 640px;
+}
+.email-text
+{
+    color: white;
+    position: absolute;
+    top: 260px;
+    left: 150px;
+    font-size: 30px;
+    font-family: Roboto;
+    width: 250px;
+    height: 20px;
+}
+.email-address
+{
+    color: rgb(140, 136, 136);
+    position: absolute;
+    top: 320px;
+    left: 150px;
+    font-size: 25px;
+    font-family: Roboto;
+    width: 500px;
+    height: 20px;
+}
+.first-name
+{
+    color: white;
+    position: absolute;
+    top: 260px;
+    left: 800px;
+    font-size: 30px;
+    font-family: Roboto;
+    width: 200px;
+    height: 20px;
+}
+.input-firstname
+{
+    position: absolute;
+    top: 340px;
+    left: 800px;
+    width: 250px;
+    height: 45px;
+    border: solid 2px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Roboto;
+}
+.last-name
+{
+    color: white;
+    position: absolute;
+    top: 260px;
+    left: 1150px;
+    font-size: 30px;
+    font-family: Roboto;
+    width: 200px;
+    height: 20px;
+}
+.input-lastname
+{
+    position: absolute;
+    top: 340px;
+    left: 1150px;
+    width: 250px;
+    height: 45px;
+    border: solid 2px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Roboto;
+}
+.hostel-name
+{
+    color: white;
+    position: absolute;
+    top: 460px;
+    left: 150px;
+    font-size: 30px;
+    font-family: Roboto;
+    width: 300px;
+    height: 20px;
+}
+.input-hostelname
+{
+    position: absolute;
+    top: 550px;
+    left: 150px;
+    width: 350px;
+    height: 45px;
+    border: solid 2px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Roboto;
+}
+.mobile-text
+{
+    color: white;
+    position: absolute;
+    top: 460px;
+    left: 800px;
+    font-size: 30px;
+    font-family: Roboto;
+    width: 300px;
+    height: 20px;
+}
+.input-mobile
+{
+    position: absolute;
+    top: 550px;
+    left: 800px;
+    width: 350px;
+    height: 45px;
+    border: solid 2px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Roboto;
+}

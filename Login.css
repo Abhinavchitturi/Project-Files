@@ -1,0 +1,71 @@
+.logo-div
+{
+    width: 300px;
+    height: 250px;
+}
+.logo
+{
+    margin-top: -50px;
+    margin-left: -150px;
+    width: 250px;
+    height: 250px;
+}
+.sign-up-div
+{
+    width: 700px;
+}
+.sign-up
+{
+    margin-top: -110px;
+    font-family: Roboto;
+    margin-left: 40px;
+    font-size: 60px;
+    background: -webkit-linear-gradient(rgb(187, 0, 244), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.textbox-div
+{
+    width: 500px;
+    height: 600px;
+}
+.username
+{
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    border-color: white;
+    margin-bottom: 70px;
+}
+.sign-in-div
+{
+    width: 500px;
+}
+.sign-in
+{
+    margin-top: 30px;
+    font-family: Roboto;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 43px;
+    border-color: white;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-width: thin;
+}
+.image
+{
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+}

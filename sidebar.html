@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        body
+        {
+            background-color: black;
+            background-image: url('Allpics/bg-website-min.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" class="text">Random</a>
+        <a href="#" class="text">Electronics</a>
+        <a href="#" class="text">Fashion</a>
+        <a href="#" class="text">Accessories</a>
+        <a href="#" class="text">Stationary</a>
+        <a href="#" class="text">Books</a>
+        <a href="#" class="text">Sports</a>
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776; Categories</button>
+        <h2>Collapsed Sidebar</h2>
+        <p>Content...</p>
+      </div>
+    <script src="sidebar.js"></script>
+</body>
+</html>

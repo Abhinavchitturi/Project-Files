@@ -1,0 +1,222 @@
+.header
+{
+    background-color:rgb(38, 36, 36);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1500px;
+    border-radius: 14px;
+    flex-wrap: wrap;
+    height: 80px;
+    position: fixed;
+    z-index: 10;
+}
+.logo-prop
+{
+    cursor: pointer;
+    margin-top: -25px;
+    margin-left: 10px;
+    width: 120px;
+    height: 120px;
+    transition: opacity 0.2s;
+}
+.logo-prop:active
+{
+    opacity: 0.3;
+}
+.search-bar
+{
+    color: white;
+    background-color: black;
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 7px;
+    margin-left: 500px;
+    width: 350px;
+    height: 60px;
+}
+.search-button
+{
+    background-color: rgb(38, 36, 36);
+    border: none;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    margin-top: 13px;
+    margin-left: -390px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+.search-button:active
+{
+    opacity: 0.5;
+}
+.search-icon
+{
+    width: 40px;
+    height: 40px;
+}
+.profile-icon
+{
+    width: 50px;
+    height: 50px;
+    padding-top: 1px;
+}
+.profile-button
+{
+    background-color: rgb(38, 36, 36);
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 9px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: opacity 0.3s;
+}
+.profile-button:active
+{
+    opacity: 0.5;
+}
+.cart-button
+{
+    background-color:magenta;
+    margin-left: -30px;
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Roboto;
+    border: none;
+    border-radius: 20px;
+    padding-right: 30px;
+    margin-top: 10px;
+    font-weight: 550;
+    color: white;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+.cart-button:active
+{
+    opacity: 0.5;
+}
+.cart-icon
+{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+.chatbutton
+{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border: none;
+    border-radius: 100px;
+    margin-top: 11px;
+    margin-left: 130px;
+    cursor: pointer;
+}
+
+/*NOWWWW*/
+.product-image-css
+{
+    width: 600px;
+    height: 550px;
+    margin-left: 100px;
+    margin-top: 110px;
+}
+.product-title-html
+{
+    width: 700px;
+    height: 50px;
+    margin-left: 780px;
+    color: white;
+    margin-top: -530px;
+    display: flex;
+    font-family: Roboto;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+.price-html
+{
+    width: 300px;
+    height: 50px;
+    color: white;
+    margin-left: 790px;
+    margin-top: 60px;
+    font-family: Roboto;
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+.bid-data-enter
+{
+    margin-left: 780px;
+    margin-top: 40px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(58, 58, 58);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.bid-button
+{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: magenta;
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+.bid-button:active
+{
+    opacity: 0.5;
+}
+.if-failed
+{
+    margin-left: 790px;
+    margin-top: 40px;
+    width: 600px;
+    height: 50px;
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+.description-title-html
+{
+    margin-top: -30px;
+    width: 180px;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    margin-left: 790px;
+    font-family: Roboto;
+}
+.product-description-html
+{
+    color: white;
+    margin-left: 790px;
+    font-size: 20px;
+    font-family: Roboto;
+}
+.description-width
+{
+    width: 1450px;
+}

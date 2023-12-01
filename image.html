@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Upload</title>
+  <style>
+    /* Style the file input and label */
+    input[type="file"] {
+      display: none; /* Hide the file input */
+    }
+
+    label {
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+
+    /* Style the image preview container */
+    #imagePreviewContainer {
+      display: none;
+      margin-top: 20px;
+    }
+
+    /* Style the image preview */
+    #imagePreview {
+      width: 150px;
+      height: 150px;
+      border: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+
+<form action="/upload" method="post" enctype="multipart/form-data">
+  <!-- Input for file selection -->
+  <input type="file" name="image" accept="image/*" id="imageInput" onchange="previewImage(event)">
+
+  <!-- Button to trigger the file selection dialog -->
+  <label for="imageInput">Choose Image</label>
+
+  <!-- Button to submit the form (you may use a different mechanism depending on your requirements) -->
+  <button type="submit">Upload</button>
+</form>
+
+<!-- Image preview container -->
+<div id="imagePreviewContainer">
+  <img id="imagePreview" src="#" alt="Image Preview">
+</div>
+
+<script>
+function previewImage(event) {
+  // Get the file input
+  var input = event.target;
+
+  // Ensure a file was selected
+  if (input.files && input.files[0]) {
+    // Create a FileReader object to read the file
+    var reader = new FileReader();
+
+    // Set a callback function to handle the file reading
+    reader.onload = function(e) {
+      // Set the source of the image element to the read data URL
+      document.getElementById('imagePreview').src = e.target.result;
+    };
+
+    // Read the file as a data URL
+    reader.readAsDataURL(input.files[0]);
+
+    // Show the image preview container
+    document.getElementById('imagePreviewContainer').style.display = 'block';
+  }
+}
+</script>
+
+</body>
+</html>

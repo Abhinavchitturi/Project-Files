@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Main</title>
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="product.css">`
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body
+        {
+            background-color: black;
+            background-image: url('Allpics/bg-website-min.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 110% 100%;
+        }
+    </style>
+</head>
+<body>
+    <!--SIDEBAR-->
+    <div class="sidebar">
+        <img src="Allpics/icons8-category-100.png" class="cate-image">
+        <p class = "cate-text">Categories</p>
+        <button class = "all-button active" id="allButton">All</button>
+        <div class = "box3"></div>
+            <img src="Allpics/icons8-border-all-96.png" class = "all-image">
+            <img src="Allpics/icons8-arrow-right-30.png" class = "arrow1">
+        <button class = "electronics-button" onclick="electronicsbutton();" id="electronicsButton">Electronics</button>
+            <div class = "box4"></div>
+                <img src="Allpics/icons8-electrical-24.png" class = "electronics-image">
+                <img src="Allpics/icons8-arrow-right-30.png" class = "arrow2">
+        <button class = "books-button" onclick="booksfunction();" id="booksButton">Books</button>
+            <div class = "box5"></div>
+                <img src="Allpics/icons8-books-100.png" class = "books-image">
+                <img src="Allpics/icons8-arrow-right-30.png" class = "arrow3">
+        <button class = "fashion-button" id="fashionButton" onclick="fashionfunction();">Fashion</button>
+            <div class = "box6"></div>
+                <img src="Allpics/icons8-shirt-50.png" class = "fashion-image">
+                <img src="Allpics/icons8-arrow-right-30.png" class = "arrow4">
+        <button class = "sports-button" id="sportsButton" onclick="sportsfunction();">Sports</button>
+            <div class="box7"></div>
+                <img src="Allpics/icons8-basketball-jersey-48.png" class="sports-image">
+                <img src="Allpics/icons8-arrow-right-30.png" class = "arrow5">
+        <button class="stationary-button" id="stationaryButton" onclick="stationaryfunction();">Stationary</button>
+            <div class="box8"></div>
+                <img src="Allpics/icons8-art-64.png" class = "stationary-image">
+                <img src="Allpics/icons8-arrow-right-30.png" class = "arrow6">
+    </div>
+    <!--HEADER-->
+    <div class = "header">
+        <img src="Allpics/PROJECTLOGO-removebg-preview.png" class="logo-prop" onclick="location.reload()">
+        <input type="text" class="search-bar" placeholder="Search For Products">
+        <button class="chatbutton">
+            <img src="Allpics/icons8-chat-24.png" class="chatimage">
+        </button>
+        <button type="submit" class="search-button"><img src="Allpics/icons8-search-64.png" class="search-icon"></button>
+        <button class="cart-button">MY BIDS <img src="Allpics/icons8-cart-96.png" class="cart-icon"></button>
+        <button class="profile-button"><img src="Allpics/icons8-male-user-50.png" class="profile-icon"></button>
+    </div>
+    <div id="productContainer"></div>
+    <button id="loadmorebutton">Load More</button>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,358 @@
+.sidebar
+{
+    margin-top: 100px;
+    background-color: rgb(38, 36, 36);
+    width: clamp(170px, 80%, 240px);
+    height: 540px;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: rgba(205, 205, 205, 0.1) 0px 4px 16px, rgba(255, 255, 255, 0.1) 0px 8px 24px, rgba(255, 255, 255, 0.1) 0px 16px 56px;
+    position: fixed;
+}
+.cate-image
+{
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    position:absolute;
+    margin-left: 10px;
+    margin-top: 14px;
+}
+.cate-text
+{
+    color: white;
+    z-index: 2;
+    position: absolute;
+    font-size: 25px;
+    padding-left: 70px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.box3
+{
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    background-color: rgb(5, 224, 224);
+    display: flex;
+    flex-direction: row;
+    top: 95px;
+    left: 14px;
+    z-index: 2;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.all-button
+{
+    width: 200px;
+    padding-right: 65px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 84px;
+    margin-left: 10px;
+    background-color: rgb(38, 36, 36);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+}
+.all-button.active
+{
+    background-color: rgb(29, 29, 29);
+}
+.all-image
+{
+    width: 20px;
+    height: 20px;
+    margin-top: 100px;
+    margin-left: 19px;
+    position: absolute;
+    z-index: 3;
+}
+.arrow1
+{
+    width: 25px;
+    height: 25px;
+    margin-top: 97px;
+    margin-left: 180px;
+    z-index: 3;
+    position: absolute;
+}
+.electronics-button
+{
+    width: 200px;
+    padding-right: 3px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 160px;
+    margin-left: 7px;
+    background-color: rgb(38, 36, 36);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    position: absolute;
+}
+.electronics-button:active
+{
+    background-color: rgb(58, 58, 58);
+}
+.electronics-image
+{
+    width: 25px;
+    height: 25px;
+    margin-top: 174px;
+    margin-left: 15px;
+    z-index: 3;
+    position: absolute;
+}
+.arrow2
+{
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    margin-top: 173px;
+    margin-left: 180px;
+    position: absolute;
+}
+.box4
+{
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    background-color: rgb(95, 9, 182);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 170px;
+    left: 13px;
+}
+.books-button
+{
+    width: 200px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    height: 50px;
+    z-index: 1;
+    margin-top: 238px;
+    margin-left: 10px;
+    background-color: rgb(38, 36, 36);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+}
+.books-button:active
+{
+    background-color: rgb(29, 27, 27);
+}
+.books-image
+{
+    width: 25px;
+    height: 25px;
+    margin-top: 250px;
+    margin-left: 17px;
+    z-index: 3;
+    position: absolute;
+}
+.arrow3
+{
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    margin-top: 250px;
+    margin-left: 180px;
+    position: absolute;
+}
+.box5
+{
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 248px;
+    left: 15px;
+    background-color: magenta;
+}
+.fashion-button
+{
+    width: 200px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    height: 50px;
+    z-index: 1;
+    background-color: rgb(38, 36, 36);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    margin-top: 310px;
+    margin-left: 10px;
+    position: absolute;
+}
+.fashion-button:active
+{
+    background-color: rgb(28, 25, 25);
+}
+.fashion-image
+{
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    margin-top: 322px;
+    margin-left: 17px;
+    position: absolute;
+}
+.box6
+{
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 320px;
+    left: 15px;
+    background-color: red;
+}
+.arrow4
+{
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    margin-top: 322px;
+    margin-left: 180px;
+    position: absolute;
+}
+.sports-button
+{
+    width: 200px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    height: 50px;
+    z-index: 1;
+    background-color: rgb(38, 36, 36);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    margin-top: 384px;
+    margin-left: 10px;
+    position: absolute;
+}
+.sports-button:active
+{
+    background-color: rgb(29, 27, 27);
+}
+.sports-image
+{
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    margin-top: 398px;
+    margin-left: 17px;
+    position: absolute;
+}
+.box7
+{
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 395px;
+    margin-left: 16px;
+    background-color: blue;
+}
+.arrow5
+{
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    margin-top: 397px;
+    margin-left: 180px;
+    position: absolute;
+}
+.stationary-button
+{
+    width: 200px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    height: 45px;
+    z-index: 1;
+    background-color: rgb(38, 36, 36);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    margin-top: 465px;
+    margin-left: 10px;
+    position: absolute;
+}
+.stationary-button:active
+{
+    background-color: rgb(29, 27, 27);
+}
+.stationary-image
+{
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    margin-top: 476px;
+    margin-left: 19px;
+    position: absolute;
+}
+.box8
+{
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 473px;
+    left: 16px;
+    background-color: orange;
+    position: absolute;
+}
+.arrow6
+{
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    margin-top: 475px;
+    margin-left: 180px;
+    position: absolute;
+}

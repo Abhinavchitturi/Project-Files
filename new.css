@@ -1,0 +1,506 @@
+.logo-prop
+{
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 10px;  
+    width: 100px;
+    height: 100px;
+    transition: opacity 0.2s;
+}
+.logo-prop:active
+{
+    opacity: 0.3;
+}
+.box-div
+{
+    margin-right: grid;
+}
+.background-image
+{
+    width: 1330px;
+    height: 550px;
+    margin-top: 90px;
+    margin-left: 100px;
+    border-radius: 18px;   
+    box-shadow: rgba(205, 205, 205, 0.1) 0px 4px 16px, rgba(255, 255, 255, 0.1) 0px 8px 24px, rgba(255, 255, 255, 0.1) 0px 16px 56px;
+}
+.sign-up-button
+{
+    font-size: 14px;
+    border: none;
+    height: 40px;
+    width: 80px;
+    margin: 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+.sign-up-button:hover
+{
+    border: #ff86ef solid 1px;
+    background-color: #ff86ef;
+}
+.sign-up-button:active
+{
+    opacity: 0.4;
+}
+.header
+{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    z-index: 100;
+}
+.text1
+{
+    color: white;
+    position: absolute;
+    display: block;
+    top: 160px;
+    left: 170px;
+    font-weight: bold;
+    width: 500px;
+    font-size: 70px;
+    font-family: Roboto;
+    animation: fadeIn 4s;
+}
+@keyframes fadeIn
+{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.text2
+{
+    background-image: linear-gradient(
+    -225deg,
+    #311c7c 1%,
+    #44107a 29%,
+    #ff1361 66%,
+    #fff800 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+}
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+}
+.box2
+{
+    background-color: rgb(0, 0, 0);
+    width: 240px;
+    height: 455px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 140px;
+    left: 700px;
+    border-radius: 15px;
+    z-index: 2;
+    box-shadow: rgba(10, 10, 10, 0.1) 0px 4px 16px, rgba(63, 63, 63, 0.1) 0px 8px 24px, rgba(255, 255, 255, 0.1) 0px 16px 56px;
+}
+.box3
+{
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    background-color: rgb(5, 224, 224);
+    display: flex;
+    flex-direction: row;
+    top: 92px;
+    left: 14px;
+    z-index: 2;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.all-button
+{
+    width: 200px;
+    padding-right: 65px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    height: 45px;
+    margin-top: 84px;
+    margin-left: -32px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    z-index: 1;
+}
+.all-button:active
+{
+    background-color: rgb(29, 27, 27);
+}
+.categories-text
+{
+    color: white;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 40px;
+    font-family: Roboto;
+    font-weight: bolder;
+}
+.all-image
+{
+    width: 20px;
+    height: 20px;
+    margin-top: 97px;
+    margin-left: 20px;
+    position: absolute;
+    z-index: 3;
+}
+.category-image
+{
+    width: 30px;
+    height: 30px;
+    margin-left: -78px;
+    margin-top: 24px;
+}
+.arrow1
+{
+    width: 25px;
+    height: 25px;
+    margin-top: 94px;
+    margin-left: -30px;
+    z-index: 3;
+}
+.electronics-button
+{
+    width: 200px;
+    padding-right: 3px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    height: 45px;
+    margin-top: 140px;
+    margin-left: -196px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.electronics-button:active
+{
+    background-color: rgb(28, 27, 27);
+}
+.electronics-image
+{
+    width: 25px;
+    height: 25px;
+    margin-top: 150px;
+    margin-left: -194px;
+    z-index: 3;
+}
+.arrow2
+{
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    margin-top: 150px;
+    margin-left: 140px;
+}
+.box4
+{
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    background-color: rgb(95, 9, 182);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 147px;
+    left: 12px;
+}
+.animate {
+    animation-duration: 2s;
+    animation-name: fadeIn;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.books-button
+{
+    width: 200px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    height: 45px;
+    z-index: 1;
+    margin-top: 200px;
+    margin-left: -195px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+}
+.books-button:active
+{
+    background-color: rgb(29, 27, 27);
+}
+.books-image
+{
+    width: 25px;
+    height: 25px;
+    margin-top: 210px;
+    margin-left: -195px;
+    z-index: 3;
+}
+.arrow3
+{
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    margin-top: 209px;
+    margin-left: 137px;
+}
+.box5
+{
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 208px;
+    left: 13px;
+    background-color: magenta;
+}
+.fashion-button
+{
+    width: 200px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    height: 45px;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    margin-top: 260px;
+    margin-left: -195px;
+}
+.fashion-button:active
+{
+    background-color: rgb(28, 25, 25);
+}
+.fashion-image
+{
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    margin-top: 270px;
+    margin-left: -193px;
+}
+.box6
+{
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 268px;
+    left: 13px;
+    background-color: red;
+}
+.arrow4
+{
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    margin-top: 270px;
+    margin-left: 138px;
+}
+.sports-button
+{
+    width: 200px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    height: 45px;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    margin-top: 320px;
+    margin-left: -195px;
+}
+.sports-button:active
+{
+    background-color: rgb(29, 27, 27);
+}
+.sports-image
+{
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    margin-top: 327px;
+    margin-left: -193px;
+}
+.box7
+{
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 325px;
+    margin-left: 13px;
+    background-color: blue;
+}
+.arrow5
+{
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    margin-top: 329px;
+    margin-left: 137px;
+}
+.stationary-button
+{
+    width: 200px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    height: 45px;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    margin-top: 380px;
+    margin-left: -190px;
+}
+.stationary-button:active
+{
+    background-color: rgb(29, 27, 27);
+}
+.stationary-image
+{
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    margin-top: 390px;
+    margin-left: -196px;
+}
+.box8
+{
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 388px;
+    left: 13px;
+    background-color: orange;
+}
+.arrow6
+{
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    margin-top: 390px;
+    margin-left: 140px;
+}
+.box9
+{
+    background-color: rgb(19, 18, 18);
+    width: 400px;
+    height: 455px;
+    border-radius: 10px;
+    position: absolute;
+    top: 140px;
+    left: 945px;
+    border-radius: 15px;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 0px;
+    box-shadow: rgba(205, 205, 205, 0.1) 0px 4px 16px, rgba(255, 255, 255, 0.1) 0px 8px 24px, rgba(255, 255, 255, 0.1) 0px 16px 56px;
+}
+.box9-block
+{
+    width: 100%;
+    height: 230px;
+}
+.hidden
+{
+    display: none;
+}
+.random-image
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+    display: grid;
+}
+.random-text
+{
+    color: white;
+    margin-left: 40px;
+    margin-top: 4px;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+}
